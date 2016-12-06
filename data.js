@@ -85,7 +85,7 @@ var songs = [{
   month: 7,
   day: 22,
   weeksAtNumberOne: 1,
-  duration: ""
+  duration: "4:16"
 }, {
   name: "It's Gonna Be Me",
   artist: "NSYNC",
