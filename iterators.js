@@ -79,15 +79,6 @@ function getSongsByArtist(songArr, artist) {
     });
 }
 
-// Write a function called getOneHitWonders which takes in an array of songs and returns an array of songs for artists who only appear once in the original array (i.e. the song's artist property should be unique).
-
-function getOneHitWonders(songArr) {
-    var artists = songArr.map(function(song) { return song.artist; });
-    return songArr.filter(function(song) {
-        return artists.indexOf(song.artist) === artists.lastIndexOf(song.artist);
-    });
-}
-
 // Refactor summerJamCount to use reduce!
 
 function summerJamCount(songArr) {

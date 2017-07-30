@@ -71,17 +71,6 @@ describe("#getSongsByArtist", function(){
   });
 });
 
-describe("#getOneHitWonders", function(){
-    it("should return all of the number one hits for more than 10 weeks", function(){
-      expect(getOneHitWonders(songs).length).to.equal(121)
-    });
-    it("should return the correct big hit", function(){
-      expect(getOneHitWonders(songs)[0].name).to.equal("Smooth")
-      expect(getOneHitWonders(songs)[0].month).to.equal(10)
-      expect(getOneHitWonders(songs)[0].year).to.equal(1999)
-    });
-});
-
 // change xit to it so that your tests are no longer pending!
 
 describe("#summerJamCount", function(){
