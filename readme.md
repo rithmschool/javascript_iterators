@@ -33,7 +33,6 @@ Have fun!
 1. Write a function called `getBigHits` which takes an array of songs and returns an array of song objects which were number one for 10 or more weeks.
 2. Write a function called `getShortSongs` which takes an array of songs and returns an array of songs which are shorter than 3 minutes.
 3. Write a function called `getSongsByArtist` which takes in an array of songs and the name of an artist and returns an array of songs by that artist.
-4. Write a function called `getOneHitWonders` which takes in an array of songs and returns an array of songs for artists who only appear once in the original array.
 
 ### `reduce`
 
